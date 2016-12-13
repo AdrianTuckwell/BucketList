@@ -6,6 +6,7 @@ window.onload = function() {
   var ul = document.querySelector('#countries');
   ul.addEventListener('click', function(e){
     e.preventDefault();
+    console.log(e.target);
 
     var country = {
       name: e.target.value
@@ -45,7 +46,7 @@ window.onload = function() {
       var li = document.createElement('li');
       li.innerText = countries[i].name;
       var button = document.createElement('button');
-      button.innerText = "Add to Bucket List";
+      button.innerText = "Add " + countries[i].name;
       button.value = [i];
       ul.appendChild(li);
       ul.appendChild(button);
