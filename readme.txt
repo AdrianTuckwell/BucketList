@@ -4,9 +4,10 @@ Each country as a button that when clicked will add the index of the country to 
 -------------------------------------------------------------------
 Time to build: 1.5 hrs
 Current state: very limited
-Enhancements required:  - add country to database
-                        - read from database
-                        - have boolean state for country so button can be switched on/off should user change mind
+Enhancements required:  
+- add country to database
+- read from database
+- have boolean state for country so button can be switched on/off should user change mind
 
 To get this running...
 
